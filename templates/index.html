@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<div id="content">
+    <img src="/static/srmlogo.png" class="ribbon" style="width:150px ;height: 100px;"/>
+</div>
+    <head>
+        <title>VQA DEMO</title>
+        {{ dropzone.load() }}
+        {{ dropzone.style('border: 2px dashed #0087F7; margin: 10%; min-height: 400px;') }}
+    </head>
+    <body>
+        <h1 align="center">Visual Query Answering System</h1>
+        <p align = "center">Arun Baalaaji, Abhijit Sridhar, Prateek Ralhan, Ravindra Vikram</p>
+        <p align = "center"> Project Guide : Dr. A. Ruhan Bevi</p>
+        {{ dropzone.create(action_view='index') }}
+    </body>
+</html>

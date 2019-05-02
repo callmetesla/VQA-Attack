@@ -1,0 +1,34 @@
+<title> Prediction VQA </title>
+<div id="content">
+    <img src="/static/srmlogo.png" class="ribbon" style="width:150px ;height: 100px;"/>
+</div>
+<h1 align="center">Visual Query Answering System</h1>
+<p align = "center">Arun Baalaaji, Abhijit Sridhar, Prateek Ralhan, Ravindra Vikram</p>
+<p align = "center"> Project Guide : Dr. A. Ruhan Bevi</p>
+<div align="center" style="border:1px ">
+<a href="{{ url_for('index') }}" > Back to main page</a><p>
+</div>
+
+<ul>
+{% for file_url in file_urls %}
+<div style="display: flex; justify-content: center;">
+    <img src="{{file_url}}" height="50%" width="50%"/>
+</div>{% endfor %}
+</ul>
+<style type="text/css">
+    .wrapper {
+        text-align: center;
+    }
+    .wrapper ul {
+        display: inline-block;
+    }
+    .wrapper li {
+    }
+</style>
+<div class="wrapper">
+<ul>
+{% for acc,label in answer %}
+<li>Probability: {{acc}}: Labels:{{label}}</li>
+{% endfor %}
+</ul>
+</div>
