@@ -5,7 +5,7 @@ certifi==2019.3.9
 cffi==1.12.2
 chardet==3.0.4
 Click==7.0
-cryptography==2.6.1
+cryptography>=3.2
 cymem==2.0.2
 cytoolz==0.9.0.1
 dill==0.2.9
@@ -20,7 +20,7 @@ grpcio==1.19.0
 h5py==2.9.0
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2>=2.11.3
 Keras==2.0.0
 Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
@@ -45,7 +45,7 @@ pyflakes==2.1.1
 pyOpenSSL==19.0.0
 PySocks==1.6.8
 pytz==2018.9
-PyYAML==5.1
+PyYAML>=5.4
 regex==2019.3.9
 requests==2.21.0
 scikit-learn==0.20.3
@@ -53,14 +53,15 @@ scipy==1.2.1
 six==1.12.0
 spacy==2.0.16
 tensorboard==1.13.1
-tensorflow==1.13.1
+tensorflow>=2.4.0
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 thinc==6.12.1
 toolz==0.9.0
 tqdm==4.31.1
 ujson==1.35
-urllib3==1.24.1
-Werkzeug==0.15.1
+urllib3>=1.26.5
 wrapt==1.10.11
+werkzeug>=0.15.3
+
 WTForms==2.2.1

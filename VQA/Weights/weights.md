@@ -1,1 +1,1 @@
-Weights are stored in GDrive
+Weights are stored in GDrive due to their larger size.

@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template, request, session, url_for
 from flask_dropzone import Dropzone
 from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
-from VQA_Attack.demo import main
+from VQA_Attack.vqa import main
 from flask_wtf import FlaskForm
 from wtforms import StringField
 import json
